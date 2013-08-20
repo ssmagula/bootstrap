@@ -1,6 +1,6 @@
 /* http://css-tricks.com/perfect-full-page-background-image/ */
 html {
-  background: url(../imgs/bulbous_bow_flickr.jpg) no-repeat center center fixed; /* Imgs: 6106337734_15dd15e759_b.jpg  bulbous_bow_flickr.jpg */
+  background: url(../imgs/6106337734_15dd15e759_b.jpg	) no-repeat center center fixed; /* Imgs: 6106337734_15dd15e759_b.jpg  bulbous_bow_flickr.jpg */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -45,6 +45,19 @@ h6 {
 	/*font:24px/30px 'raleway-thin', Helvetica, sans-serif;*/
 	font:24px/30px 'sourcesanspro-extralight', 'Helvetica Neue', Helvetica, sans-serif;
 	margin:0 0 10px;
+}
+
+@media (max-width: 991px) {
+	h1 {
+	font:36px/42px 'leaguegothic-regular', Helvetica, sans-serif;
+	margin:0 0 10px;
+	letter-spacing:	.76px;
+	}
+	.h3-thin {
+		/*font:24px/30px 'raleway-thin', Helvetica, sans-serif;*/
+		font:18px/26px 'sourcesanspro-extralight', 'Helvetica Neue', Helvetica, sans-serif;
+		margin:0 0 10px;
+	}
 }
 
 .navbar.sp {
