@@ -8,9 +8,10 @@ html {
 }
 
 body {
-      padding-top: 0px;
+      padding-top: 110px;
       background: none;
       font:14px/20px 'sourcesanspro-regular', 'Helvetica Neue', Helvetica, sans-serif;
+      min-height: 2000px;
   }
 
 h1 {
@@ -61,9 +62,17 @@ h6 {
 }
 
 .navbar.sp {
-	  background-color: #000;
-	  padding: .2em;
+	background-color: #000;
+	padding: .2em;
 }
+
+.navbar-nav > li > a {
+	color:#777;
+}
+.nav .caret {
+	border-top-color: #777;
+    border-bottom-color: #777;
+	}
 .navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
   color: #FFF;
   font-weight: 500;
@@ -79,6 +88,12 @@ h6 {
 }
 .navbar-nav {
   padding-top: 1.2em;
+}
+.navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.navbar-toggle {
+	padding-top: 22px;
 }
 .showoff {
 	color: #FFF;
