@@ -50,9 +50,9 @@ h6 {
 
 @media (max-width: 991px) {
 	h1 {
-	font:36px/42px 'leaguegothic-regular', Helvetica, sans-serif;
-	margin:0 0 10px;
-	letter-spacing:	.76px;
+		font:36px/42px 'leaguegothic-regular', Helvetica, sans-serif;
+		margin:0 0 10px;
+		letter-spacing:	.76px;
 	}
 	.h3-thin {
 		/*font:24px/30px 'raleway-thin', Helvetica, sans-serif;*/
@@ -100,10 +100,23 @@ h6 {
 }
 #top-three {
 	list-style: none;
-	padding: 18em 0 1em 0;
-	font-size: 1.3em;
-	line-height: 2em;
+	padding: 18em 0 1em 2em;
+	text-indent: -1em;
+	font-size: 1.2em;
+	line-height: 1.8em;
 }
+
+@media (max-width: 768px) {
+    #top-three {
+		list-style: none;
+		padding-top: 3em;
+		text-indent: -1em;
+		font-size: 1.1em;
+		line-height: 1.8em;
+	    }
+}
+
+
 .panel { /* Smag: this allows you to drop a transparent, tinted panel behind the marketing copy for extra legibility */
   background: rgba(0, 0, 0, 0); 
   border: none;
