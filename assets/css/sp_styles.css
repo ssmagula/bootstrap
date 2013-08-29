@@ -2,7 +2,7 @@
 html { /* Imgs: 6106337734_15dd15e759_b.jpg  bulbous_bow_flickr.jpg */
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background: url(../imgs/6106337734_15dd15e759_b.jpg	) no-repeat center center fixed; 
+  background: url(../imgs/bulbous_bow_flickr.jpg	) no-repeat center center fixed; 
   -o-background-size: cover;
   background-size: cover;
 }
@@ -11,7 +11,6 @@ body {
       padding-top: 110px;
       background: none;
       font:14px/20px 'sourcesanspro-regular', 'Helvetica Neue', Helvetica, sans-serif;
-      min-height: 2000px;
   }
 
 h1 {
@@ -45,13 +44,13 @@ h6 {
 .h3-thin {
 	/*font:24px/30px 'raleway-thin', Helvetica, sans-serif;*/
 	font:24px/30px 'sourcesanspro-extralight', 'Helvetica Neue', Helvetica, sans-serif;
-	margin:0 0 10px;
+	margin:0 0 15em;
 }
 
 .thin {
 	/*font:24px/30px 'raleway-thin', Helvetica, sans-serif;*/
 	font-family:'sourcesanspro-extralight', 'Helvetica Neue', Helvetica, sans-serif;
-	margin:0 0 2em;
+	margin:0 0 1.5em;
 }
 
 /* SMAG TODO: convert the h3-thin classes to thin classes so that they work on any heading */
@@ -104,11 +103,11 @@ h6 {
 	padding-top: 22px;
 }
 .showoff {
-	color: #FFF;
+	color: #FEFEFE;
 }
 #top-three {
 	list-style: none;
-	padding: 18em 0 1em 2em;
+	padding: 0em 0 1em 2em;
 	text-indent: -1em;
 	font-size: 1.2em;
 	line-height: 1.8em;
@@ -124,9 +123,8 @@ h6 {
 	    }
 }
 
-
-.panel { /* Smag: this allows you to drop a transparent, tinted panel behind the marketing copy for extra legibility */
-  background: rgba(0, 0, 0, 0); 
+.panel { /* Smag: change the opacity from 0 to .5 to get a tinted panel behind the marketing copy for extra legibility */
+  background: rgba(129, 129, 121, 0); 
   border: none;
 }
 .center {
@@ -144,6 +142,24 @@ h6 {
   font-weight: 200;
   background-color: transparent;
 }
+
+.odd {
+	background-color: #FEFEFE; 
+	padding: 4em 0;
+}
+
+.even {
+	background-color: #F2F2F2; 
+	padding: 4em 0;
+}
+
+.carousel-caption {
+	background: rgba(0, 0, 0, .50); 
+	padding: 1em 1em 2em 1em;
+	text-align: center;
+	margin-bottom: .2em;
+}
+
 @font-face {
 	font-family: 'leaguegothic-regular';
 	src: url('../fonts/league_gothic/leaguegothic-regular-webfont.eot');
